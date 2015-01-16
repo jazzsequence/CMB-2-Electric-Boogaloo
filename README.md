@@ -5,9 +5,9 @@ This is a demo project for CMB2 to show you how you can use CMB2 in various type
 ###Branches
 The repo is split into different branches that give different implementation examples.
 
-* **mu-plugin** demonstrates using CMB2 as a must-use plugin in the /wp-content/mu-plugins directory.
-* **plugin** demonstrates using CMB2 as a plugin from the [WordPress.org plugins repository](http://wordpress.org/plugins/CMB2)
-* **include** demonstrates using CMB2 as a standalone library included in a plugin or theme
+* **[mu-plugin](https://github.com/jazzsequence/CMB-2-Electric-Boogaloo/tree/mu-plugin)** demonstrates using CMB2 as a must-use plugin in the /wp-content/mu-plugins directory.
+* **[plugin](https://github.com/jazzsequence/CMB-2-Electric-Boogaloo/tree/plugin)** demonstrates using CMB2 as a plugin from the [WordPress.org plugins repository](http://wordpress.org/plugins/CMB2)
+* **[include](https://github.com/jazzsequence/CMB-2-Electric-Boogaloo/tree/include)** demonstrates using CMB2 as a standalone library included in a plugin or theme
 
 In each case, CMB2 is loaded as a submodule in the GitHub repository.
 
