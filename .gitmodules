@@ -1,0 +1,3 @@
+[submodule "mu-plugins/CMB2"]
+	path = mu-plugins/CMB2
+	url = git@github.com:WebDevStudios/CMB2.git
