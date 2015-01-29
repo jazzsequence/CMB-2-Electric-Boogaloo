@@ -23,3 +23,5 @@ Some additional links for reference and more information about CMB2
 [DoItWithWP review of CMB2](http://www.doitwithwp.com/custom-metaboxes-fields-levels-v2-0/)  
 [Attaching posts to other posts with CMB2](http://webdevstudios.com/2014/12/23/attaching-posts-with-cmb2-for-wordpress/)  
 [CMB2 Example Plugin](https://github.com/WebDevStudios/CMB2-Example-Plugin) A cool demo of how to use CMB2 as well as some tips and tricks
+
+#### Follow me on Twitter [@jazzs3quence](https://twitter.com/jazzs3quence)
