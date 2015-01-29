@@ -1,5 +1,7 @@
 # CMB2: Electric Boogaloo
 
+![electric boogaloo](https://ktsw899.files.wordpress.com/2013/11/electric_boogaloo.jpg)
+
 This is a demo project for CMB2 to show you how you can use CMB2 in various types of projects.
 
 ###Branches
