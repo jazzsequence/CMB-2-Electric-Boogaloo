@@ -19,17 +19,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-/**
- * Bootstrap CMB2
- * No need to check versions or if CMB2 is already loaded... the init file does that already!
- *
- * Check to see if CMB2 exists, and either bootstrap it or add a notice that it is missing
- */
-if ( file_exists( dirname( __FILE__ ) . '/inc/CMB2/init.php' ) ) {
-	require_once 'inc/CMB2/init.php';
-} else {
-	add_action( 'admin_notices', 'cmb2_example_plugin_missing_cmb2' );
-}
 
 /**
  * Load CMB2 examples
@@ -38,14 +27,3 @@ require_once 'inc/local-user-avatar.php';
 require_once 'inc/more-about-user.php';
 require_once 'inc/user-social-media-urls.php';
 require_once 'inc/additional-post-media.php';
-
-/**
- * Add an error notice to the dashboard if CMB2 is missing from the plugin
- *
- * @return void
- */
-function cmb2_example_plugin_missing_cmb2() { ?>
-<div class="error">
-	<p><?php _e( 'CMB2 Example Plugin is missing CMB2!', 'cmb2-example-plugin' ); ?></p>
-</div>
-<?php }
